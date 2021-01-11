@@ -1,0 +1,62 @@
+.header {
+  width: 60%;
+  border-radius: 10px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  height: 250px;
+}
+.header h1 {
+  color: red;
+}
+.header input {
+  width: 60%;
+  height: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.header button {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: red;
+  color: aliceblue;
+  border-color: aqua;
+}
+.btn {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.main {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+  margin: top;
+}
+.list button {
+  width: 80px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border-color: white;
+  cursor: pointer;
+}
+.text {
+  width: 40%;
+  align-self: center;
+}
+.lineth {
+  width: 40%;
+  align-self: center;
+  text-decoration: line-through;
+}
